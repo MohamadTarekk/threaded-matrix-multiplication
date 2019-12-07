@@ -1,0 +1,13 @@
+//struct timespec startTime = {0, 0};
+    //struct timespec endTime = {0, 0};
+    //double elapsedTime;
+    // normal matrix multiplication
+    /*
+    clock_gettime(CLOCK_MONOTONIC, &startTime);
+    matrixMultiplication(matrices[0], matrices[1], &result[0]);
+    clock_gettime(CLOCK_MONOTONIC, &endTime);
+    elapsedTime = ((double)endTime.tv_sec + (1.0e-9 * (double)endTime.tv_nsec)) - ((double)startTime.tv_sec + (1.0e-9 * (double)startTime.tv_nsec));
+    printMatrix(result[0], 'C');
+    printf("Total elapsed time: %lf\n", elapsedTime);
+    */
+    
